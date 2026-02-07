@@ -1,0 +1,21 @@
+{
+  "name": "example-plugin",
+  "version": "1.0.0",
+  "description": "Full-featured manifest template with optional metadata and component paths",
+  "author": {
+    "name": "Example Author",
+    "email": "author@example.com",
+    "url": "https://github.com/example"
+  },
+  "homepage": "https://example.com/docs/plugin",
+  "repository": "https://github.com/example/example-plugin",
+  "license": "Apache-2.0",
+  "keywords": ["automation", "plugin", "claude-code"],
+  "commands": ["./commands/deploy.md", "./commands/inspect.md"],
+  "agents": ["./agents/researcher.md", "./agents/reviewer.md"],
+  "skills": ["./skills/"],
+  "hooks": "./hooks/hooks.json",
+  "mcpServers": "./.mcp.json",
+  "outputStyles": "./output-styles/",
+  "lspServers": "./.lsp.json"
+}

@@ -1,0 +1,15 @@
+{
+  "version": "1",
+  "hooks": [
+    {
+      "event": "PostToolUse",
+      "hooks": [
+        {
+          "type": "agent",
+          "matcher": "Edit*",
+          "agent": "reviewer"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "teamName": "plugin-delivery-team",
+  "objective": "Implement and verify plugin component updates",
+  "displayMode": "concise",
+  "members": [
+    {
+      "name": "implementer",
+      "role": "code changes",
+      "ownership": ["skills", "hooks", "agents"]
+    },
+    {
+      "name": "verifier",
+      "role": "validation",
+      "ownership": ["scripts", "test results"]
+    }
+  ]
+}

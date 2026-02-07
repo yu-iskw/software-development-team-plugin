@@ -1,0 +1,10 @@
+{
+  "name": "claude-code-plugin-template",
+  "version": "0.1.0",
+  "description": "Starter scaffold for a Claude Code plugin repository.",
+  "author": {
+    "name": "yu-iskw"
+  },
+  "license": "Apache-2.0",
+  "repository": "https://github.com/yu-iskw/claude-code-plugin-template"
+}

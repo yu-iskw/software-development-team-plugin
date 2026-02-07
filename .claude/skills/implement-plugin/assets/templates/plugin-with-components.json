@@ -1,0 +1,8 @@
+{
+  "name": "component-plugin",
+  "version": "1.0.0",
+  "description": "Plugin manifest wired to hooks, skills, agents, and optional team configs",
+  "agents": "./agents/",
+  "skills": "./skills/",
+  "hooks": "./hooks/hooks.json"
+}

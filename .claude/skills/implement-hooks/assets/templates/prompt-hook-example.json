@@ -1,0 +1,15 @@
+{
+  "version": "1",
+  "hooks": [
+    {
+      "event": "UserPromptSubmit",
+      "hooks": [
+        {
+          "type": "prompt",
+          "matcher": "*",
+          "prompt": "Confirm the prompt is compliant with repository policies before proceeding."
+        }
+      ]
+    }
+  ]
+}
