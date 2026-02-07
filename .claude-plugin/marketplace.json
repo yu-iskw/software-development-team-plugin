@@ -1,0 +1,20 @@
+{
+  "name": "software-development-team-plugin",
+  "owner": {
+    "name": "yu-iskw"
+  },
+  "plugins": [
+    {
+      "name": "software-development-team",
+      "source": {
+        "source": "github",
+        "repo": "yu-iskw/software-development-team-plugin"
+      },
+      "description": "Agent team plugin for software development with 3-tier pipeline: Plan → Research/Orchestrate → Parallel execution. Provides 11 specialized agents and 11 matching skills for collaborative development workflows.",
+      "version": "0.1.0",
+      "author": { "name": "yu-iskw" },
+      "repository": "https://github.com/yu-iskw/software-development-team-plugin",
+      "license": "Apache-2.0"
+    }
+  ]
+}

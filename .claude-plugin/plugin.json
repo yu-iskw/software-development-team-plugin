@@ -1,10 +1,26 @@
 {
-  "name": "claude-code-plugin-template",
+  "name": "software-development-team",
   "version": "0.1.0",
-  "description": "Starter scaffold for a Claude Code plugin repository.",
+  "description": "Agent team plugin for software development with 3-tier pipeline: Plan \u2192 Research/Orchestrate \u2192 Parallel execution. Provides 11 specialized agents (planner, orchestrator, product-manager, designer, software-engineer, code-reviewer, qa, sre-devops, security, legal-compliance, researcher) and 11 matching skills for collaborative development workflows.",
   "author": {
     "name": "yu-iskw"
   },
   "license": "Apache-2.0",
-  "repository": "https://github.com/yu-iskw/claude-code-plugin-template"
+  "repository": "https://github.com/yu-iskw/software-development-team-plugin",
+  "agents": [
+    "./agents/planner.md",
+    "./agents/orchestrator.md",
+    "./agents/product-manager.md",
+    "./agents/designer.md",
+    "./agents/software-engineer.md",
+    "./agents/code-reviewer.md",
+    "./agents/qa.md",
+    "./agents/sre-devops.md",
+    "./agents/security.md",
+    "./agents/legal-compliance.md",
+    "./agents/researcher.md",
+    "./agents/say-hello-agent.md"
+  ],
+  "skills": "./skills/",
+  "hooks": "./hooks/hooks.json"
 }
