@@ -351,7 +351,6 @@ agents/
   security.md                    # Security specialist agent
   legal-compliance.md            # Legal compliance agent
   researcher.md                  # Research specialist agent
-  say-hello-agent.md             # Example agent (kept for reference)
 skills/
   plan-task/SKILL.md            # Planning skill
   orchestrate/SKILL.md           # Orchestration skill

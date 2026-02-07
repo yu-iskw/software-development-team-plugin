@@ -18,8 +18,7 @@
     "./agents/sre-devops.md",
     "./agents/security.md",
     "./agents/legal-compliance.md",
-    "./agents/researcher.md",
-    "./agents/say-hello-agent.md"
+    "./agents/researcher.md"
   ],
   "skills": "./skills/",
   "hooks": "./hooks/hooks.json"
