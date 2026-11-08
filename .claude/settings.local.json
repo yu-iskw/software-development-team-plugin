@@ -1,5 +1,0 @@
-{
-  "permissions": {
-    "allow": ["Bash(make lint:*)", "Bash(trunk check:*)", "Bash(bash:*)"]
-  }
-}
